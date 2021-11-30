@@ -19,3 +19,9 @@ enabled=1
 gpgcheck=1
 gpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/azure-cli.repo
 sudo dnf install azure-cli
+
+## Install Java 8
+
+sudo yum install java-1.8.0-openjdk -y
+
+
